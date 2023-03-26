@@ -204,6 +204,9 @@ class Licensing extends \OpenTHC\VTCCB\Test\Actors\Base
 
 	/**
 	 * @group Advertising
+	 * As CCB Licensing Staff
+	 * I need the ability to review an advertising request
+	 * So that I can ask for additional information, approve or deny the request
 	 */
 	function testRequestReview () {}
 }
