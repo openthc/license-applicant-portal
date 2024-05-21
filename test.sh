@@ -6,12 +6,8 @@
 set -o errexit
 set -o nounset
 
-x=${OPENTHC_TEST_BASE:-}
-if [ -z "$x" ]
-then
-	echo "You have to define the environment first"
-	exit 1
-fi
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+declare -rx OPENTHC_TEST_BASE="${OPENTHC_TEST_BASE:-${SCRIPT_DIR}}"
 
 declare -rx OUTPUT_BASE="${OPENTHC_TEST_BASE}/webroot/test-output"
 declare -rx OUTPUT_MAIN="${OUTPUT_BASE}/index.html"
@@ -41,7 +37,7 @@ vendor/openthc/common/test/phplint.sh
 #
 # PHPUnit
 vendor/openthc/common/test/phpunit.sh "$@"
-
+vendor/openthc/common/test/phpunit-xml2html.php webroot/test-output/phpunit.xml webroot/test-output/phpunit.html
 
 #
 # Final Output
