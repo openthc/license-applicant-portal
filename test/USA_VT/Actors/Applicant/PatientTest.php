@@ -5,9 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\LAP\Test\Actors\Applicant;
+namespace OpenTHC\LAP\Test\USA_VT\Actors\Applicant;
 
-class Patient extends \OpenTHC\LAP\Test\Actors\Base
+class Patient extends \OpenTHC\LAP\Test\USA_VT\Actors\Base
 {
 	/**
 	 * @group Medical_Program

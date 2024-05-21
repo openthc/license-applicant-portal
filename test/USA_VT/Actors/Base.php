@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\LAP\Test\Actors;
+namespace OpenTHC\LAP\Test\USA_VT\Actors;
 
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
@@ -30,8 +30,7 @@ class Base extends \PHPUnit\Framework\TestCase
 			'browserstack.console' => 'verbose',
 		);
 
-		$bs_uri = sprintf("https://%s:%s@%s/wd/hub", TEST_BROWSERSTACK_USER, TEST_BROWSERSTACK_AUTH, TEST_BROWSERSTACK_BASE);
-		self::$wd = RemoteWebDriver::create($bs_uri, $caps);
+		self::$wd = RemoteWebDriver::create(OPENTHC_TEST_WEBDRIVER_URL, $caps);
 		self::$wd->manage()->window()->maximize();
 	}
 
