@@ -5,9 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\VTCCB\Test\Actors\CCB;
+namespace OpenTHC\LAP\Test\Actors\CCB;
 
-class Legal extends \OpenTHC\VTCCB\Test\Actors\Base
+class Legal extends \OpenTHC\LAP\Test\Actors\Base
 {
 	/**
 	 * @group Appeal

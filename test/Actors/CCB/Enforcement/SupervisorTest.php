@@ -5,9 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\VTCCB\Test\Actors\CCB\Enforcement;
+namespace OpenTHC\LAP\Test\Actors\CCB\Enforcement;
 
-class Supervisor extends \OpenTHC\VTCCB\Test\Actors\Base
+class Supervisor extends \OpenTHC\LAP\Test\Actors\Base
 {
 	/**
 	 * @group Complaint_Inspection

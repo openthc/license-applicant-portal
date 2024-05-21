@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\VTCCB\Test\OWASP;
+namespace OpenTHC\LAP\Test\OWASP;
 
 class Base extends \PHPUnit\Framework\TestCase
 {

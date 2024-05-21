@@ -5,9 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\VTCCB\Test\Actors\CCB\Enforcement;
+namespace OpenTHC\LAP\Test\Actors\CCB\Enforcement;
 
-class Staff extends \OpenTHC\VTCCB\Test\Actors\Base
+class Staff extends \OpenTHC\LAP\Test\Actors\Base
 {
 
 	/**

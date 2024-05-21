@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-class OWASP2021A06 extends \OpenTHC\VTCCB\Test\OWASP\Base
+class OWASP2021A06 extends \OpenTHC\LAP\Test\OWASP\Base
 {
 }
 

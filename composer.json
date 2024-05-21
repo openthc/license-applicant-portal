@@ -1,14 +1,14 @@
 {
 	"name": "openthc/vt-ccb-product-backlog",
-	"description": "OpenTHC VTCCB Product Backlog",
+	"description": "OpenTHC License Applicant Portal",
 	"license": "MIT",
 	"autoload": {
 		"exclude-from-classmap": [
 			"vendor/erusev/parsedown-extra/test"
 		],
 		"psr-4": {
-			"OpenTHC\\VTCCB\\": "./lib",
-			"OpenTHC\\VTCCB\\Test\\": "./test",
+			"OpenTHC\\LAP\\": "./lib",
+			"OpenTHC\\LAP\\Test\\": "./test",
 			"Custom\\": "./Custom"
 		}
 	},

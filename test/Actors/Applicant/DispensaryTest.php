@@ -5,9 +5,9 @@
  * SPDX-License-Identifier: MIT
  */
 
-namespace OpenTHC\VTCCB\Test\Actors\Applicant;
+namespace OpenTHC\LAP\Test\Actors\Applicant;
 
-class Dispensary extends \OpenTHC\VTCCB\Test\Actors\Base
+class Dispensary extends \OpenTHC\LAP\Test\Actors\Base
 {
 	/**
 	 * @group Medical_Program
